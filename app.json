@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.sohailaslam.ReactNaEx"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b6bf6bc7-8f55-4b26-bb2b-dc137e81d61c"
+      }
+    },
+    "owner": "sohailaslam"
   }
 }
