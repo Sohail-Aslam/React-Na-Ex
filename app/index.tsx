@@ -13,16 +13,17 @@ export default function Home() {
         <View style={styles.aboutSection}>
           <Text style={styles.aboutHeader}>About Me</Text>
           <Text style={styles.aboutText}>
-            Passionate software engineer with a focus on React Native development.
-            I enjoy building intuitive and performant mobile applications.
-            Always eager to learn new technologies and improve my skills.
+            Passionate software engineer with a focus on React Native
+            development. I enjoy building intuitive and performant mobile
+            applications. Always eager to learn new technologies and improve my
+            skills.
           </Text>
         </View>
         <View style={styles.card}>
           <Text style={styles.cardTitle}>My Projects</Text>
           <Text style={styles.cardContent}>
-            Explore a variety of my personal and professional projects.
-            From simple utility apps to complex enterprise solutions.
+            Explore a variety of my personal and professional projects. From
+            simple utility apps to complex enterprise solutions.
           </Text>
         </View>
         <View style={styles.card}>
@@ -64,12 +65,6 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     borderWidth: 3,
     borderColor: "#6200ee",
-  },
-  name: {
-    fontSize: 28,
-    fontWeight: "bold",
-    color: "#333",
-    marginBottom: 5,
   },
   title: {
     fontSize: 18,
