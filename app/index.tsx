@@ -8,7 +8,7 @@ export default function Home() {
           source={require("../assets/images/partial-react-logo.png")} // Using a placeholder image
           style={styles.avatar}
         />
-        <Text style={styles.name}>Sohail Aslam</Text>
+        <Text className="text-4xl" >Sohail Aslam</Text>
         <Text style={styles.title}>Software Student</Text>
         <View style={styles.aboutSection}>
           <Text style={styles.aboutHeader}>About Me</Text>

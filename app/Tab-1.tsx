@@ -1,6 +1,8 @@
 import { View, Text, StyleSheet, TouchableOpacity, Alert, ScrollView } from "react-native";
 
 export default function Tab1() {
+  // Debug log to validate styles integrity
+  console.log('Styles object:', styles);
   const handleCardPress = (cardName: string) => {
     Alert.alert("Card Pressed", `You pressed ${cardName}!`);
   };
